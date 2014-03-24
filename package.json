@@ -1,0 +1,35 @@
+{
+  "name": "gulp-aws-cloudfront",
+  "version": "0.0.1",
+  "description": "A gulp plugin to manage cloudfront",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/smebberson/gulp-aws-cloudfront.git"
+  },
+  "keywords": [
+    "gulp",
+    "gulpfriendly",
+    "aws",
+    "cloudfront",
+    "invalidate",
+    "invalidation",
+    "s3"
+  ],
+  "author": "Scott Mebberson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/smebberson/gulp-aws-cloudfront/issues"
+  },
+  "homepage": "https://github.com/smebberson/gulp-aws-cloudfront",
+  "dependencies": {
+    "through2": "~0.4.1",
+    "aws-sdk": "~2.0.0-rc12",
+    "gulp-util": "~2.2.14",
+    "node-uuid": "~1.4.1",
+    "pad": "0.0.4"
+  }
+}
